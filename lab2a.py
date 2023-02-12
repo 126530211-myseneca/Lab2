@@ -11,5 +11,10 @@ def show_var():
 	print("Arguments:", arg1, arg2)
 	print("Script name and arguments:", s_name, arg1, arg2)
 
+def helloWorld():
+	print("Hello World")
+
+
 if __name__ == "__main__":
 	show_var()
+    helloWorld()
